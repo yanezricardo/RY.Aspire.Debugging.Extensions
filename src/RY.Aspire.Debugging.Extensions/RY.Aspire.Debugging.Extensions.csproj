@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+		<Version>0.0.1</Version>
+		<PackageId>RY.Aspire.Debugging.Extensions</PackageId>
+		<Authors>Ricardo Yánez</Authors>
+		<Product>RY.Aspire.Debugging.Extensions</Product>
+		<Description>Extensions for configuring the Visual Studio debugger inside Docker containers for Aspire applications.</Description>
+		<PackageTags>Aspire;AppHost;Debugging;Extensions</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<IsPackable>true</IsPackable>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageReleaseNotes>Initial release of the RY.Aspire.Debugging.Extensions package.</PackageReleaseNotes>
+		<RepositoryUrl>https://github.com/yanezricardo/RY.Aspire.Debugging.Extensions.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/yanezricardo/RY.Aspire.Debugging.Extensions</PackageProjectUrl>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+	<ItemGroup>
+	  <PackageReference Include="Aspire.Hosting.AppHost" Version="9.1.0" />
+	</ItemGroup>
+</Project>
+
