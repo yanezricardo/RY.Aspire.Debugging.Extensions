@@ -38,9 +38,13 @@ public static class ResourceBuilderExtensions
             }
 
             return new ExecuteCommandResult { Success = true };
-        },
-        iconName: iconName,
-        iconVariant: IconVariant.Regular);
+        }, 
+        new CommandOptions
+        {
+            IconName = iconName,
+            IconVariant = IconVariant.Regular,
+            Description = "Configures the Visual Studio debugger inside the container.",
+        });
 
         return builder;
     }

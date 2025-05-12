@@ -4,7 +4,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-		<Version>0.0.1</Version>
+		<Version>0.0.2</Version>
 		<PackageId>RY.Aspire.Debugging.Extensions</PackageId>
 		<Authors>Ricardo Yánez</Authors>
 		<Product>RY.Aspire.Debugging.Extensions</Product>
@@ -25,7 +25,7 @@
 		</None>
 	</ItemGroup>
 	<ItemGroup>
-	  <PackageReference Include="Aspire.Hosting.AppHost" Version="9.1.0" />
+	  <PackageReference Include="Aspire.Hosting.AppHost" Version="9.2.1" />
 	</ItemGroup>
 </Project>
 
